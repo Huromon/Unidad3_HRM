@@ -6,5 +6,5 @@ class Congelados (fecha_de_caducidad:String="indeterminada" , numero_de_lote:Int
 
     fun recuperar_TCR(): Double = this.tcr
 
-    override fun toString(): String=super.toString()+", Temperatura de congelacion recomendada: $tcr ºC "
+    override fun toString(): String=super.toString()+", Temperatura de congelacion recomendada: $tcr ºC"
 }
